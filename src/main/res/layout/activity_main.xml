@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEFD5"
+    tools:context=".MainActivity">
+
+    <!-- ImageView covering the entire screen -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/homepage"/>
+
+    <!-- LinearLayout containing the text -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textAlignment="center"
+            android:textColor="#E7E3E2"
+            android:textSize="36sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="450dp"/> <!-- Move the TextView slightly higher -->
+
+        <!-- Adjust the margins as needed -->
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/oval_background"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="135dp"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+</FrameLayout>

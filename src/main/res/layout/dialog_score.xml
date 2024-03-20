@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/dialog_background">
+
+    <TextView
+        android:id="@+id/textViewScoreMessage2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Game Over!"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewScore2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Score: "
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/buttonRepeatGame2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Repeat Game"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/colorRed"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/buttonMainMenu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/colorRed"/>
+
+</LinearLayout>

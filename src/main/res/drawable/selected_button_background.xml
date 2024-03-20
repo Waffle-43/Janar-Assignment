@@ -1,0 +1,7 @@
+<!-- res/drawable/selected_button_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <stroke
+        android:width="2dp"
+        android:color="@color/colorPrimary" /> <!-- Change @color/blue to the desired blue color -->
+</shape>

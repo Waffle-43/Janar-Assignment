@@ -1,0 +1,14 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid>
+        <gradient
+            android:startColor="#2196F3"
+        android:endColor="#0D47A1"
+        android:type="linear"
+        android:angle="45" />
+    </solid>
+    <corners android:radius="30dp" /> <!-- Adjust the radius for curved edges -->
+    <stroke
+        android:color="#0D47A1"
+        android:width="40dp" /> <!-- Adjust the border width -->
+</shape>
